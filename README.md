@@ -1,6 +1,8 @@
 Bazel String Case
 =================
 
+[![Build status](https://badge.buildkite.com/02cc478cbbc4c754a64896dfce93c8efc8f8695f611d17fef8.svg)](https://buildkite.com/brymck-dot-io/bazel-string-case)
+
 This library provides functions to Bazel to enable easy casing of strings. It's written in pure Starlark and has no
 third-party dependencies.
 
