@@ -1,7 +1,8 @@
 Bazel String Case
 =================
 
-This library provides functions to Bazel to enable easy casing of strings.
+This library provides functions to Bazel to enable easy casing of strings. It's written in pure Starlark and has no
+third-party dependencies.
 
 Usage
 -----
