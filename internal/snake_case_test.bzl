@@ -11,7 +11,7 @@ def _snake_case_test_impl(ctx):
         ["Test String", "test_string"],
         ["TestV2", "test_v2"],
         ["version 1.2.10", "version_1_2_10"],
-        ["version 1.21.0", "version_1_21_0"]
+        ["version 1.21.0", "version_1_21_0"],
     ]
     for t in tt:
         asserts.equals(env, t[1], snake_case(t[0]))

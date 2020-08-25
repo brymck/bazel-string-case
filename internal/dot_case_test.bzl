@@ -12,7 +12,7 @@ def _dot_case_test_impl(ctx):
         ["path/case", "path.case"],
         ["TestV2", "test.v2"],
         ["version 1.2.10", "version.1.2.10"],
-        ["version 1.21.0", "version.1.21.0"]
+        ["version 1.21.0", "version.1.21.0"],
     ]
     for t in tt:
         asserts.equals(env, t[1], dot_case(t[0]))

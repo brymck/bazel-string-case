@@ -10,7 +10,7 @@ def _lower_case_test_impl(ctx):
         ["Test String", "teststring"],
         ["TestV2", "testv2"],
         ["version 1.2.10", "version1210"],
-        ["version 1.21.0", "version1210"]
+        ["version 1.21.0", "version1210"],
     ]
     for t in tt:
         asserts.equals(env, t[1], lower_case(t[0]))

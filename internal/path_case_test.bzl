@@ -10,7 +10,7 @@ def _path_case_test_impl(ctx):
         ["Test String", "test/string"],
         ["TestV2", "test/v2"],
         ["version 1.2.10", "version/1/2/10"],
-        ["version 1.21.0", "version/1/21/0"]
+        ["version 1.21.0", "version/1/21/0"],
     ]
     for t in tt:
         asserts.equals(env, t[1], path_case(t[0]))
