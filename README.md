@@ -16,10 +16,10 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "bazel_string_case",
-    sha256 = "0bae76ce6883696e5df9669aa14911e7e5d131823e87d66dbedf5c495db159c9",
-    strip_prefix = "bazel-string-case-0.0.1",
+    sha256 = "2a8c743697751e00d0140bb4a6c4c99b802168381936e38d53dc973c7e5324e0",
+    strip_prefix = "bazel-string-case-0.0.2",
     urls = [
-        "https://github.com/brymck/bazel-string-case/archive/v0.0.1.tar.gz",
+        "https://github.com/brymck/bazel-string-case/archive/v0.0.2.tar.gz",
     ],
 )
 ```
