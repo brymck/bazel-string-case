@@ -21,5 +21,10 @@ http_archive(
 )
 ```
 
-Then in
-load("@bazel_string_case//:defs.bzl", _snake_case = "snake_case")
+Then in one of your `BUILD` or `*.bzl` files, use it as follows:
+
+```
+load("@bazel_string_case//:defs.bzl", "pascal_case")
+
+print(pascal_case("foo_bar"))
+```
